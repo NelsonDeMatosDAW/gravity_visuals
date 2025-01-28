@@ -202,8 +202,14 @@
 
 
 .banner.s2 {
-    padding: 73px 0 120px;
-    background: url('../../assets/images/background/bg-banner-2.png') no-repeat;
+    padding: 0; /* Elimina los padding específicos ya que vamos a hacer que el video ocupe todo el fondo */
+    position: relative; /* Asegura que el contenido se posicione sobre el video */
+
+    /* Elimina el fondo de la imagen */
+    // background: url('../../assets/images/background/bg-banner-2.png') no-repeat;
+
+    /* Puedes agregar aquí un fondo de color si es necesario */
+    //background-color: #000;
 
     .shape {
         top: -40%;
@@ -211,13 +217,11 @@
 
         &.right {
             left: auto;
-            
             top: -85%;
         }
     }
-    @include mobile {
-        padding: 73px 0;
-    }
+
+    /* Resto del contenido */
     .block-text {
         .sub-heading {
             margin-bottom: 15px;
@@ -239,28 +243,26 @@
             padding: 19px 55px;
         }
     }
-    .bannerSwiper  {
+
+    .bannerSwiper {
         margin-top: 100px;
     }
 
     .swiper-cards {
-        
         .swiper-slide {
             background: transparent !important;
             box-shadow: none;
-           
         }
     }
 
     .swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
         perspective: 1800px;
     }
-    
 
     .banner__main {
         margin-top: 21px;
         display: flex;
-        
+
         @include mobile {
             flex-wrap: wrap;
 
@@ -277,6 +279,24 @@
                 }
             }
         }
+    }
+
+    /* Estilos para el contenedor del video */
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Esto pone el video detrás del contenido */
+        overflow: hidden;
+    }
+
+    /* Asegúrate de que el video ocupe todo el fondo */
+    .video-background-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Asegura que el video cubra toda la sección */
     }
 }
 

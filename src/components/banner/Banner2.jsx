@@ -19,25 +19,35 @@ Banner2.propTypes = {
 function Banner2(props) {
     const {data} = props;
 
+    {/** Datos del Tiulo del Banner */}
     const [dataBlock] = useState(
         {
-            subheading: 'Creación de contenido audiovisual',
-            heading: 'Videografía y fotografía',
+            subheading: 'Creación de contenido audiovisual en el Bierzo',
+            heading: 'Videografía y fotografía en el Bierzo.',
             desc:'¡Bienvenidos a Gravity Visuals! Productora audiovisual.'
         }
     )
     return (
                 <section className="banner s2">
+
+                    {/** Video de fondo */}
+                    <div className="video-background">
+                        <video autoPlay loop muted className="video-background-video">
+                            <source src="/assets/videos/Ines.mov" type="video/mp4" />
+                            Tu navegador no soporta la etiqueta de video.
+                        </video>
+                    </div>
+
                     <div className="shape"></div>
                     <div className="shape right"></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
                                 <div className="block-text center">
+
+                                {/** Mostramos la información del título */}
                                     <h6 className="sub-heading"><span>{dataBlock.subheading}</span></h6>
-                                    <h2 className="heading pd">{dataBlock.heading}
-                                        
-                                        </h2>
+                                    <h1 className="heading pd">{dataBlock.heading}</h1>
                                         <p className="mb-34">{dataBlock.desc}</p>
                                         
                                         <Button title='Contacto' link='/contact' />
@@ -67,7 +77,7 @@ function Banner2(props) {
                                     }}
                                     loop={true}
                                     autoplay={{
-                                        delay: 2500,
+                                        delay: 4500,
                                         disableOnInteraction: false,
                                         }}
                                 
@@ -107,7 +117,7 @@ function Banner2(props) {
                                         ))
                                     }
                                     
-       
+
 
                                 </Swiper>
                             </div>

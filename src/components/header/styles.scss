@@ -11,32 +11,26 @@
     width: 100%;
     z-index: 1000;
     height: 98px;
-    @include flex(center,center);
+    @include flex(center, center);
+    background: transparent; // Esto hace que el fondo sea transparente.
 
     &.is-fixed {
         position: fixed;
-        background: #070A29;
-        
+        background: rgba(7, 10, 41, 0.8); // Fondo transparente con un poco de opacidad.
         top: 0;
         transition: all 0.4s ease-in-out;
         box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
-
-
         z-index: 9999;
-        
-        left      : 0;
-        width     : 100%;
-
-
-
+        left: 0;
+        width: 100%;
     }
 
     .header__body {
-        @include flex(center,space-between);
+        @include flex(center, space-between);
     }
 
     .header__right {
-        @include flex(center,flex-start);
+        @include flex(center, flex-start);
 
         .mobile-button {
             display: none;
@@ -111,6 +105,7 @@
                 }
             }
         }
+
         .main-nav {
             .menu {
                 @include flex(center, flex-start);
@@ -182,7 +177,6 @@
                             &:hover::before , &.current-item::before  {
                                 width: 100%;
                             }
-                            
     
                             a {
                                 color: #000;
@@ -204,21 +198,19 @@
                         }
                         
                     }
-                    &:hover .sub-menu{
+                    &:hover .sub-menu {
                         opacity: 1;
                         visibility: visible;
                         transform: translateY(26px);
                     }
     
                     &.menu-item-has-children>a {
-        
                         &:after {
                             color: rgba(255 255 255 / 50%);
                             font-family: 'icomoon';
                             content: "\e90a";
                             font-size: 7px;
                             font-weight: 400;
-        
                             position: absolute;
                             right: -15px;
                             top: 6px;
@@ -229,8 +221,6 @@
                 li.active > a {
                     color: var(--primary-color);
                 }
-            
-                
             }
 
             @include tablet {
@@ -297,7 +287,6 @@
         
                             &:last-child {
                                 border: none;
-                                
                             }
                         }
                         &.menu-item-has-children>a::after {
@@ -318,10 +307,12 @@
                     }
                 }
             }
+
             @include mobile {
                 width: 60%;
             }
         }
+
         .group-button {
             display: flex;
             margin-left: 80px;
@@ -341,6 +332,7 @@
             }
         }
     }
+
     .header__action {
         display: flex;
         align-items: center;
@@ -357,10 +349,8 @@
             display: none;
         }
     }
-
-
-
 }
+
 
 
 
