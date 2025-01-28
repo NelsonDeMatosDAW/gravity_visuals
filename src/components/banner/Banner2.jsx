@@ -21,9 +21,9 @@ function Banner2(props) {
 
     const [dataBlock] = useState(
         {
-            subheading: 'We are Monteno NFT',
-            heading: 'Most Popular Collections',
-            desc:'Cyfonii is the premier marketplace for nifties, which are digital items you can truly own for yourself'
+            subheading: 'Creación de contenido audiovisual',
+            heading: 'Videografía y fotografía',
+            desc:'¡Bienvenidos a Gravity Visuals! Productora audiovisual.'
         }
     )
     return (
@@ -40,7 +40,7 @@ function Banner2(props) {
                                         </h2>
                                         <p className="mb-34">{dataBlock.desc}</p>
                                         
-                                        <Button title='Get Connected' link='/contact' />
+                                        <Button title='Contacto' link='/contact' />
                                 </div>
 
                                 <Swiper
@@ -69,10 +69,10 @@ function Banner2(props) {
                                     autoplay={{
                                         delay: 2500,
                                         disableOnInteraction: false,
-                                      }}
-                                  
+                                        }}
+                                
                                     
-              
+            
                                     modules={[EffectCoverflow, Pagination , Navigation , Autoplay]}
                                     className="bannerSwiper"
                                 >
