@@ -1,11 +1,13 @@
 import React from 'react';
 
+import './counter.css'; // Importa el archivo CSS
+
 import img from '../../assets/images/layouts/couter.png'
 
 
 function Counter(props) {
     return (
-        <section className="couter">
+        <section className="couter" style={{paddingTop: '4vh'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
@@ -50,9 +52,10 @@ function Counter(props) {
                                                     
                                             </div>
 
-                                            <h4 className="numb">100K</h4>
-                                            <p>Registered User</p>
+                                            <h4 className="numb">+100</h4>
+                                            <p>Clientes satisfechos</p>
                                         </div>
+
                                         <div className="couter-box">
                                             <div className="icon">
                                                 <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,9 +89,10 @@ function Counter(props) {
                                                     
                                             </div>
 
-                                            <h4 className="numb">5M</h4>
-                                            <p>Total Assets</p>
+                                            <h4 className="numb">+500</h4>
+                                            <p>Proyectos realizados</p>
                                         </div>
+
                                         <div className="couter-box">
                                             <div className="icon">
                                                 <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -110,8 +114,8 @@ function Counter(props) {
                                                     
                                             </div>
 
-                                            <h4 className="numb">10B</h4>
-                                            <p>Yearly Trading</p>
+                                            <h4 className="numb">+4</h4>
+                                            <p>Años experiencia</p>
                                         </div>
 
                                         <div className="image">

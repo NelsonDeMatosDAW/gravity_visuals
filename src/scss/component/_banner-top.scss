@@ -204,6 +204,7 @@
 .banner.s2 {
     padding: 0; /* Elimina los padding específicos ya que vamos a hacer que el video ocupe todo el fondo */
     position: relative; /* Asegura que el contenido se posicione sobre el video */
+    padding-top: 2vh;
 
     /* Elimina el fondo de la imagen */
     // background: url('../../assets/images/background/bg-banner-2.png') no-repeat;

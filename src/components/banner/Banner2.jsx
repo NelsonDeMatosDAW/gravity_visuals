@@ -77,7 +77,7 @@ function Banner2(props) {
                                     }}
                                     loop={true}
                                     autoplay={{
-                                        delay: 4500,
+                                        delay: 800,
                                         disableOnInteraction: false,
                                         }}
                                 

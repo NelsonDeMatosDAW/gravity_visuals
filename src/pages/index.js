@@ -7,7 +7,7 @@ import Blog from "./Blog";
 import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import HelpCenter from "./HelpCenter";
-import Home01 from "./Home01";
+import Home01 from "./extra_home";
 import Home02 from "./Home02";
 import Home03 from "./Home03";
 import Nfts from "./Nfts";
@@ -22,9 +22,8 @@ import VisionsMission from "./VisionsMission";
 
 
 const routes = [
-  { path: '/', component: <Home01 />},
+  { path: '/', component: <Home02 />},
   { path: '/home-v2', component: <Home02 />},
-  { path: '/home-v3', component: <Home03 />},
 
   { path: '/nfts', component: <Nfts />},
   { path: '/blog', component: <Blog />},

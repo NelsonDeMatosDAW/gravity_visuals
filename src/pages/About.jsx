@@ -19,7 +19,7 @@ function About(props) {
     return (
         <div className='page-about wrapper'>
 
-            <PageTitle title='About us' />
+            <PageTitle title='Nosotros' />
 
             <About2 />
 

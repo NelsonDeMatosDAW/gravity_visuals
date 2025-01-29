@@ -7,6 +7,8 @@ import dataRoadMap from '../assets/fake-data/data-roadmap';
 import dataTestimonials2 from '../assets/fake-data/data-testimonials2';
 import dataTeam from '../assets/fake-data/dataTeam';
 import About2 from '../components/about/About2';
+import About from '../components/about/About';
+
 import Banner2 from '../components/banner/Banner2';
 import Blog from '../components/blog/Blog';
 import Counter from '../components/counter/Counter';
@@ -26,7 +28,9 @@ function Home02(props) {
         <div className='home-2 wrapper'>
                 <Banner2 data={dataCard} />
 
-                <About2 />
+{/*                 <About2 />*/}
+
+                <About />
 
                 <Counter />  
 
