@@ -33,7 +33,7 @@ function Banner2(props) {
                     {/** Video de fondo */}
                     <div className="video-background">
                         <video autoPlay loop muted className="video-background-video">
-                            <source src="/assets/videos/Ines.mov" type="video/mp4" />
+                            <source src="/assets/videos/Ibiza_Cambios.mp4" type="video/mp4" />
                             Tu navegador no soporta la etiqueta de video.
                         </video>
                     </div>

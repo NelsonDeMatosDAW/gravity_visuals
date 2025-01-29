@@ -2,12 +2,12 @@ import React from 'react';
 
 import './counter.css'; // Importa el archivo CSS
 
-import img from '../../assets/images/layouts/couter.png'
+import img from '../../assets/images/layouts/logo_400.png'
 
 
 function Counter(props) {
     return (
-        <section className="couter" style={{paddingTop: '4vh'}}>
+        <section className="couter" style={{paddingTop: '10vh'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
@@ -118,8 +118,8 @@ function Counter(props) {
                                             <p>Años experiencia</p>
                                         </div>
 
-                                        <div className="image">
-                                            <img src={img} alt="Cyfonii" />
+                                        <div className="image" style={{ width: "auto", height:"10vh" }}>
+                                            <img src={img} alt="Logo productora audiovisual" style={{ borderRadius:"50px" }}/>
                                         </div>
                                     </div>
                                 </div>

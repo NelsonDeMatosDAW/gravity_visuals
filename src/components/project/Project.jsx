@@ -18,13 +18,13 @@ function Project(props) {
 
     const [dataBlock] = useState(
         {
-            subheading: 'Our Speciality',
-            heading: 'OUR COLLECTION',
+            subheading: 'Videos - Fotos - Diseño Gráfico',
+            heading: 'Algunos de nuestros proyectos',
             
         }
     )
     return (
-        <section className="project">
+        <section className="project" style={{paddingTop: "10vh"}}>
             <div className="shape right"></div>
             <div className="container">
                 <div className="row">
@@ -53,8 +53,9 @@ function Project(props) {
                                 navigation
                                 pagination={{
                                     clickable: true,
-                                  }}
-                                
+                                }}
+                                observer={true}       // 🔹 Observa cambios en el tamaño del Swiper
+                                observeParents={true} // 🔹 También observa cambios en los elementos padres
                             >
 
                                 {
@@ -64,7 +65,20 @@ function Project(props) {
                                                 <div className="project-box">
                                                     <div className="image">
                                                         <Link to="/nfts">
-                                                            <img src={idx.img} alt="Cyfonii" />
+                                                        <video
+                                                            src={idx.img}
+                                                            controls
+                                                            autoPlay
+                                                            loop
+                                                            muted
+                                                            playsInline
+                                                            style={{
+                                                                width: "100%",
+                                                                height: "100%",
+                                                                objectFit: "cover",
+                                                                borderRadius: "10px"
+                                                            }}
+                                                        />
                                                         </Link>
                                                     </div>
                                                     <div className="content">

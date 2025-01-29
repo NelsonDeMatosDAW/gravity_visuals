@@ -15,6 +15,9 @@ import Counter from '../components/counter/Counter';
 import Faqs from '../components/faqs/Faqs';
 import Footer2 from '../components/footer/Footer2';
 import Project2 from '../components/project/Project2';
+import Project from '../components/project/Project';
+import Project3 from '../components/project/Project3';
+
 import Roadmap2 from '../components/roadmap/Roadmap2';
 import Team2 from '../components/team/Team2';
 import Testimonials2 from '../components/testimonials/Testimonials2';
@@ -34,7 +37,7 @@ function Home02(props) {
 
                 <Counter />  
 
-                <Project2 data={dataItem} /> 
+                <Project data={dataItem} /> 
 
                 <Roadmap2 data={dataRoadMap} />
 

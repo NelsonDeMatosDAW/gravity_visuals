@@ -44,7 +44,7 @@ function About(props) {
             subheading: 'Nosootros',
             heading: 'Productora audiovisual en León',
             desc1: '¿Quieres hacer crecer tu negocio? Nosotros te ayudamos.' ,
-            desc2 :'Gravity_Visuals es una productora audiovisual con más de 3 años de experiencia, especializada en la creación de contenido audiovisual impactante para empresas, marcas y particulares. Trabajamos en Ponferrada, León, Salamanca, Lugo, Coruña y Vigo. Nos dedicamos a crear tus piezas audiovisuales (video y fotografía) adaptadas a tus necesidades, capturando momentos que cuentan historias.'
+            desc2 :'Gravity_Visuals es una productora audiovisual con más de 4 años de experiencia, especializada en la creación de contenido audiovisual impactante para empresas, marcas y particulares. Trabajamos en Ponferrada, León, Salamanca, Lugo, Coruña y Vigo. Nos dedicamos a crear tus piezas audiovisuales (video y fotografía) adaptadas a tus necesidades, capturando momentos que cuentan historias.'
 
         }
     )
