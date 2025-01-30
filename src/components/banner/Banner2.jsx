@@ -27,13 +27,30 @@ function Banner2(props) {
             desc:'¡Bienvenidos a Gravity Visuals! Productora audiovisual.'
         }
     )
+
+    //estado para el video de fondo
+    const [videoSrc, setVideoSrc] = useState('/assets/videos/Ibiza_cambios.mp4');
+
+    const handleSlideChange = (swiper) => {
+        const currentSlideIndex = swiper.activeIndex % data.length; // Asegura que el índice esté dentro del rango
+    
+        // Comprobamos si el índice es válido y si tiene una propiedad 'videoSrc'
+        const newVideoSrc = (data[currentSlideIndex] && data[currentSlideIndex].videoSrc)
+            ? data[currentSlideIndex].videoSrc
+            : '/assets/videos/Ibiza_cambios.mp4'; // Fallback si no tiene videoSrc
+    
+        console.log("New Video Source: ", newVideoSrc); // Verifica el video a utilizar
+        setVideoSrc(newVideoSrc);
+    }
+
+
     return (
                 <section className="banner s2">
 
                     {/** Video de fondo */}
                     <div className="video-background">
-                        <video autoPlay loop muted className="video-background-video">
-                            <source src="/assets/videos/Ibiza_Cambios.mp4" type="video/mp4" />
+                        <video key={videoSrc} autoPlay loop muted className="video-background-video">
+                            <source src={videoSrc} type="video/mp4" />
                             Tu navegador no soporta la etiqueta de video.
                         </video>
                     </div>
@@ -75,15 +92,13 @@ function Banner2(props) {
                                     modifier: 1,
                                     slideShadows: false,
                                     }}
-                                    loop={true}
+                                    // loop={true}
                                     autoplay={{
-                                        delay: 800,
+                                        delay: 5000,
                                         disableOnInteraction: false,
                                         }}
-                                
-                                    
-            
-                                    modules={[EffectCoverflow, Pagination , Navigation , Autoplay]}
+                                    onSlideChange={handleSlideChange} //escucha el cambio del slide
+                                    modules= {[EffectCoverflow, Pagination, Navigation, Autoplay]}
                                     className="bannerSwiper"
                                 >
 
