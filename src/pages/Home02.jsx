@@ -13,7 +13,7 @@ import Banner2 from '../components/banner/Banner2';
 import Blog from '../components/blog/Blog';
 import Counter from '../components/counter/Counter';
 import Faqs from '../components/faqs/Faqs';
-import Footer2 from '../components/footer/Footer2';
+import Footer from '../components/footer/Footer';
 import Project2 from '../components/project/Project2';
 import Project from '../components/project/Project';
 import Project3 from '../components/project/Project3';
@@ -50,7 +50,7 @@ function Home02(props) {
                 <Blog data={dataBlog} />
 
 
-                <Footer2 />
+                <Footer />
         </div>
     );
 }
