@@ -1,8 +1,8 @@
 
 import icon1 from '../images/icon/quote-2.png'
-import avt1 from '../images/layouts/avt-08.png'
-import avt2 from '../images/layouts/avt-09.png'
-import avt3 from '../images/layouts/avt-10.png'
+import avt1 from '../images/layouts/nils_reseña.jpg'
+import avt2 from '../images/layouts/ruben_reseña.jpg'
+import avt3 from '../images/layouts/logo_vc_reseña.png'
 
 
 const dataTestimonials2 = [
@@ -10,26 +10,26 @@ const dataTestimonials2 = [
     {
         id: 1,
         icon: icon1,
-        text: '“ Praesent felis justo, porta id tortor vel, auctor aliquet ligula. Nam blandit mi vel pulvinar convallis. Nam at ligula a erat laoreet tincidunt ac ut lorem. “',
+        text: '“ ¡Excelente cooperación y calidad de primera clase!\n  Agradecemos que con su trabajo destaque nuestro profesionalismo, creatividad y capacidad de respuesta.\nLos vídeos terminados no sólo cumplieron con nuestras expectativas, sino que las superaron.\n ¡Recomendación clara para cualquiera que busque contenido de video de alta calidad!“'.replace(/\n/g, '<br />'),
         avt: avt1,
-        name: 'Annette Black',
+        name: 'Nils Lüdtke',
         position: 'Founder & CEO'
     },
     {
         id: 2,
         icon: icon1,
-        text: '“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc nec suscipit fringilla, augue ligula eleifend velit. “',
+        text: '“¡Muy top\n Yo empecé pidiendole trabajos sueltos y finalmente le he entregado toda la confianza de la actividad audiovisual de mi negocio.\n Muy serio, detallista y con ideas innovadoras a las que uno no se puede negar.\n Desde mi experiencia personal recomendable a ojos cerrados.“'.replace(/\n/g, '<br />'),
         avt: avt2,
-        name: 'Leslie Alexander',
-        position: 'CEO & Founder at ThemeMu'
+        name: 'Rubén Fierro',
+        position: 'CEO & CoFounder Master Dance'
     },
     {
         id: 3,
         icon: icon1,
-        text: '“ Etiam dignissim ex vitae tortor viverra, varius tincidunt sem vestibulum. Donec ex ante, sollicitudin sit amet posuere venenatis, consectetur facilisis nisi malesuada nisi nec ex. “',
+        text: '“  “'.replace(/\n/g, '<br />'),
         avt: avt3,
-        name: 'Esther Howard',
-        position: 'Chief Product Officer'
+        name: 'Christian Alonso',
+        position: 'Founder'
     },
 
 ]

@@ -5,8 +5,8 @@ const img3 = '/assets/videos/estudio_fotografia_ponferrada.MOV'
 const img4 = '/assets/videos/videos_para_empresas_leon.mov'
 const img5 = '/assets/videos/videoclips_leon.mp4'
 const img6 = '/assets/videos/videos_baile_leon.mp4'
-const img7 = '/assets/videos/GV_Valhalla_diciembre.mp4'
-const img8 = '/assets/videos/GV_Valhalla_diciembre.mp4'
+const img7 = '/assets/videos/video_grupo_musica.mp4'
+const img8 = '/assets/videos/video_discoteca_vigo.mp4'
 
 /*
 import img2 from '../images/item/item-02.png'
@@ -23,7 +23,7 @@ const dataItem = [
 
     {
         id: 1,
-        img: img7,
+        img: img1,
         title: 'Video Valhalla Club',
     },
     {
@@ -53,7 +53,7 @@ const dataItem = [
     },
     {
         id: 7,
-        img: img1,
+        img: img7,
         title: 'Videoclip grupo musical',
     },
     {

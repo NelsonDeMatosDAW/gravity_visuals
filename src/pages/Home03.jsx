@@ -2,7 +2,7 @@ import React from 'react';
 
 import Project from '../components/project/Project';
 import dataProject from '../assets/fake-data/dataProject';
-import Roadmap2 from '../components/roadmap/Roadmap2';
+
 import dataTeam from '../assets/fake-data/dataTeam';
 import Testimonials from '../components/testimonials/Testimonials';
 import Faq3 from '../components/faqs/Faq3';
@@ -32,8 +32,6 @@ function Home03(props) {
         <Token />
 
         <Project data={dataProject} />
-
-        <Roadmap2 data={dataRoadMap} />
 
 
         <Team2 data={dataTeam} />

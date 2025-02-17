@@ -14,11 +14,9 @@ import Blog from '../components/blog/Blog';
 import Counter from '../components/counter/Counter';
 import Faqs from '../components/faqs/Faqs';
 import Footer from '../components/footer/Footer';
-import Project2 from '../components/project/Project2';
-import Project from '../components/project/Project';
-import Project3 from '../components/project/Project3';
 
-import Roadmap2 from '../components/roadmap/Roadmap2';
+import Project from '../components/project/Project';
+
 import Team2 from '../components/team/Team2';
 import Testimonials2 from '../components/testimonials/Testimonials2';
 
@@ -39,16 +37,9 @@ function Home02(props) {
 
                 <Project data={dataItem} /> 
 
-                <Roadmap2 data={dataRoadMap} />
-
                 <Team2 data={dataTeam} />
 
                 <Testimonials2 data={dataTestimonials2} />
-
-                <Faqs data={dataFaqs} />
-
-                <Blog data={dataBlog} />
-
 
                 <Footer />
         </div>

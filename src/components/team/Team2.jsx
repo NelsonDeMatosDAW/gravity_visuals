@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTiktok, faPinterest } from '@fortawesome/free-brands-svg-icons';
+
 
 import line from '../../assets/images/background/line-2.png'
 
@@ -20,10 +23,10 @@ function Team2(props) {
                         <div className="row justify-content-center">
                             <div className="col-12">
                                 <div className="block-text center">
-                                    <h6 className="sub-heading"><span>Team Members</span></h6>
-                                    <h3 className="heading wow" data-splitting>Our Amazing Team
+                                    <h6 className="sub-heading"><span>Fotografía</span></h6>
+                                    <h3 className="heading wow" data-splitting>Nuestros trabajos
                                         <br />
-                                        Members</h3>
+                                        Fotográficos</h3>
                                 </div>
 
                             </div>
@@ -38,21 +41,21 @@ function Team2(props) {
                                                 </Link>
 
                                                 <ul className="list-social">
-                                                    <li><Link to="#">
-                                                        <span className="icon-facebook"></span>   
+                                                    <li><Link to="https://www.instagram.com/gravity_visualss?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                                                            <FontAwesomeIcon icon={faInstagram} size="lg" style={{ color: 'black' }}/>
                                                     </Link></li>
-                                                    <li><Link to="#">
-                                                        <span className="icon-twiter"></span>
+                                                    <li><Link to="https://www.tiktok.com/@gravity_visualss" target="_blank" rel="noopener noreferrer">
+                                                        <FontAwesomeIcon icon={faTiktok} size="lg" style={{ color: 'black' }}/>
                                                     </Link></li>
-                                                    <li><Link to="#">
-                                                        <span className="icon-plan"></span>
+                                                    <li><Link to="https://es.pinterest.com/gravity_visualss/" target="_blank" rel="noopener noreferrer">
+                                                        <FontAwesomeIcon icon={faPinterest} size="lg" style={{ color: 'black' }}/>
                                                     </Link></li>
                                                 </ul>
                                             </div>
                                             <div className="content">
                                                 <Link to="/team" className="h5 name">{idx.name}</Link>
                                                 <p className="postion">
-                                                 {idx.position}
+                                                    {idx.position}
                                                 </p>
 
                                                 

@@ -1,97 +1,91 @@
 
-import img1 from '../images/layouts/team-01.png'
-import img2 from '../images/layouts/team-02.png'
-import img3 from '../images/layouts/team-03.png'
-import img4 from '../images/layouts/team-04.png'
-import img5 from '../images/layouts/team-05.png'
-import img6 from '../images/layouts/team-06.png'
-import img7 from '../images/layouts/team-07.png'
-import img8 from '../images/layouts/team-08.png'
+import img1 from '../images/layouts/ines_2.jpg'
+import img2 from '../images/layouts/dei_2.jpg'
+import img3 from '../images/layouts/eric_1.jpg'
+import img4 from '../images/layouts/nucifera_1.jpg'
+import img5 from '../images/layouts/cj_2.jpg'
+import img6 from '../images/layouts/mazu_1.jpg'
+import img7 from '../images/layouts/ines_2.jpg'
+import img8 from '../images/layouts/dei_2.jpg'
+import img9 from '../images/layouts/eric_1.jpg'
+import img10 from '../images/layouts/nucifera_1.jpg'
+import img11 from '../images/layouts/rks_1.jpg'
 
 const dataTeam = [
 
     {
         id: 1,
         img: img1,
-        name: 'Jane Cooper',
-        position: 'Founder & CEO'
+        name: 'Ines Slim',
+        position: 'Deportista Fitness'
     },
     {
         id: 2,
         img: img2,
-        name: 'Jenny Wilson',
-        position: 'Designer'
+        name: 'Deivis Hilario',
+        position: 'Modelo'
     },
 
     {
         id: 3,
         img: img3,
-        name: 'Ralph Edwards',
-        position: 'Developer'
+        name: 'Eric Garcia',
+        position: 'DJ y Productor'
     },
 
     {
         id: 4,
         img: img4,
-        name: 'Cody Fisher',
-        position: '3D Artist'
+        name: 'Nucifera',
+        position: 'Modelo'
     },
 
     {
         id: 5,
         img: img5,
-        name: 'Jane Cooper',
-        position: 'Founder & CEO'
+        name: 'Chonin',
+        position: 'DJ'
     },
     {
         id: 6,
         img: img6,
-        name: 'Jane Cooper',
-        position: 'Founder & CEO'
+        name: 'MAZU',
+        position: 'Grupo Musica'
     },
     {
         id: 7,
         img: img7,
-        name: 'Jenny Wilson',
-        position: 'Designer'
+        name: 'Ines Slim',
+        position: 'Deportista Fitness'
     },
 
     {
         id: 8,
         img: img8,
-        name: 'Ralph Edwards',
-        position: 'Developer'
+        name: 'Deivis Hilario',
+        position: 'Modelo'
     },
 
     {
         id: 9,
-        img: img4,
-        name: 'Cody Fisher',
-        position: '3D Artist'
+        img: img9,
+        name: 'Eric Garcia',
+        position: 'DJ y Productor'
     },
 
     {
         id: 10,
-        img: img1,
-        name: 'Jane Cooper',
-        position: 'Founder & CEO'
+        img: img10,
+        name: 'Nucifera',
+        position: 'Modelo'
     },
 
     {
         id: 11,
-        img: img2,
-        name: 'Jenny Wilson',
-        position: 'Designer'
+        img: img11,
+        name: 'RKS',
+        position: 'Producto'
     },
-
-    {
-        id: 12,
-        img: img3,
-        name: 'Ralph Edwards',
-        position: 'Developer'
-    },
-
-    
 
 ]
 

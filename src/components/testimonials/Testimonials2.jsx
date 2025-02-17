@@ -21,13 +21,13 @@ function Testimonials2(props) {
                         <div className="testimonials__main">
                             <div className="block-text center">
                                 <h6 className="sub-heading"><span>Testimonials</span></h6>
-                                <h3 className="heading">What People Say <br />
-                                    about us
+                                <h3 className="heading">Opiniones de nuestros <br />
+                                    clientes
                                     </h3>
                             </div>
 
                             <Swiper
-               
+            
                             spaceBetween={30}
                             breakpoints={{
                                 0: {
@@ -54,10 +54,12 @@ function Testimonials2(props) {
                                             
                                             <div className="info">
                                                 <h5 className="name">{idx.name}</h5>
-                                                <p>{idx.position}</p>
+                                                <p>
+                                                    <pre>{idx.position}</pre>
+                                                </p>
                                                 <img src={idx.icon} alt="Cyfonii" />
                                             </div>
-                                            <p className="text">{idx.text}</p>
+                                            <p className="text" dangerouslySetInnerHTML={{ __html: idx.text }} />
                                         </div>
                                 </SwiperSlide>
                                 

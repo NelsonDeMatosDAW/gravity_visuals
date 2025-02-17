@@ -19,7 +19,7 @@ function Project(props) {
     const [dataBlock] = useState(
         {
             subheading: 'Videos - Fotos - Diseño Gráfico',
-            heading: 'Algunos de nuestros proyectos',
+            heading: 'Algunas de nuestras producciones',
             
         }
     )
@@ -89,7 +89,7 @@ function Project(props) {
                                         </SwiperSlide>
                                     ))
                                 }
-                               
+                            
                             </Swiper>
 
                     </div>

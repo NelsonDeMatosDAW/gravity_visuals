@@ -13,7 +13,7 @@ import Faqs from '../components/faqs/Faqs';
 import Footer from '../components/footer/Footer';
 import Portfolio from '../components/portfolio/Portfolio';
 import Project from '../components/project/Project';
-import Roadmap from '../components/roadmap/Roadmap';
+
 import Speciality from '../components/speciality/Speciality';
 import Team from '../components/team/Team';
 import Testimonials from '../components/testimonials/Testimonials';
@@ -34,8 +34,7 @@ function Home01(props) {
             <Portfolio data={dataPortfolio} />
 
             <Project data={dataProject} />
-           
-            <Roadmap  data={dataRoadMap} />
+        
 
             <Team data={dataTeam} />
 

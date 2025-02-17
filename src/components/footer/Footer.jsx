@@ -2,7 +2,7 @@ import React , {useState ,useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faWhatsapp, faTiktok, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 import logo from '../../assets/images/logo/logo_gv_1.png'
 
@@ -12,31 +12,31 @@ function Footer(props) {
     const [dataBlock] = useState(
         {
             heading: 'Inscribite en nuestra newsletter',
-            desc: 'Te avisaremos de las últimas en el mundo audiovisual.'
+            desc: 'Te avisaremos de lo último en el mundo audiovisual.'
         }
     )
 
     const [isVisible, setIsVisible] = useState(false);
 
     const scrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     };
-  
+
     useEffect(() => {
-      const toggleVisibility = () => {
-        if (window.pageYOffset > 500) {
-          setIsVisible(true);
-        } else {
-          setIsVisible(false);
-        }
-      };
-  
-      window.addEventListener("scroll", toggleVisibility);
-  
-      return () => window.removeEventListener("scroll", toggleVisibility);
+        const toggleVisibility = () => {
+            if (window.pageYOffset > 500) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+
+        return () => window.removeEventListener("scroll", toggleVisibility);
     }, []);
 
     return (
@@ -56,10 +56,10 @@ function Footer(props) {
                                 </div>
                                 <form action="#" className="form">
                                     <div className="form-group">
-                                        <input type="email" className="form-control" placeholder="Your email" />
+                                        <input type="email" className="form-control" placeholder="Tu correo electrónico" />
                                         
                                     </div>
-                                    <button className="action-btn"><span>Subscribe</span></button>
+                                    <button className="action-btn"><span>Subscribirse</span></button>
                                 </form>
                             </div>
 
@@ -69,11 +69,9 @@ function Footer(props) {
                                 <div className="center mb--30">
                                     <ul className="list">
                                         <li><Link to="/">Home</Link></li>
-                                        <li><Link to="/nfts">Explore</Link></li>
-                                        <li><Link to="/about">About</Link></li>
-                                        <li><Link to="/nfts">Collections</Link></li>
-                                        <li><Link to="/team">Team</Link></li>
-                                        <li><Link to="/contact">Contact</Link></li>
+                                        <li><Link to="/">Portfolio</Link></li>
+                                        <li><Link to="/equipo">Equipo</Link></li>
+                                        <li><Link to="/contacto">Contacto</Link></li>
                                     </ul>
                                     <p>Copyright © 2025, Gravity Visuals. Creado by <a href='https://nelsondematosdesigner.es' target="_blank" rel="noopener noreferrer">Nelson De Matos Designer</a></p>
                                 </div>
@@ -86,6 +84,16 @@ function Footer(props) {
                                     <li>
                                         <a href="https://wa.me/634851459?text=Hola,%20me%20gustaría%20agendar%20una%20reunión%20para%20hablar%20de%20mi%20proyecto%20audiovisual" target="_blank" rel="noopener noreferrer">
                                             <FontAwesomeIcon icon={faWhatsapp} size="lg"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.tiktok.com/@gravity_visualss" target="_blank" rel="noopener noreferrer">
+                                            <FontAwesomeIcon icon={faTiktok} size="lg"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://es.pinterest.com/gravity_visualss/" target="_blank" rel="noopener noreferrer">
+                                            <FontAwesomeIcon icon={faPinterest} size="lg"/>
                                         </a>
                                     </li>
                                 </ul>

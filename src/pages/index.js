@@ -13,7 +13,6 @@ import Home03 from "./Home03";
 import Nfts from "./Nfts";
 import ParticipantAssets from "./ParticipantAssets";
 import Partners from "./Partners";
-import RoadMap from "./RoadMap";
 import Team from "./Team";
 import VisionsMission from "./VisionsMission";
 
@@ -23,9 +22,8 @@ import VisionsMission from "./VisionsMission";
 
 const routes = [
   { path: '/', component: <Home02 />},
-  { path: '/home-v2', component: <Home02 />},
-
-  { path: '/nfts', component: <Nfts />},
+/*
+  
   { path: '/blog', component: <Blog />},
   { path: '/blog-details', component: <BlogDetails />},
   { path: '/visions-mission', component: <VisionsMission />},
@@ -34,9 +32,10 @@ const routes = [
   { path: '/advisors-backers', component: <AdvisorsBackers />},
   { path: '/partners', component: <Partners />},
   { path: '/about', component: <About />},
-  { path: '/road-map', component: <RoadMap />},
-  { path: '/team', component: <Team />},
-  { path: '/contact', component: <Contact />},
+*/
+  { path: '/nfts', component: <Nfts />},
+  { path: '/equipo', component: <Team />},
+  { path: '/contacto', component: <Contact />},
 
 
 

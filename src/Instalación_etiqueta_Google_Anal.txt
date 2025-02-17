@@ -1,0 +1,14 @@
+Instalación etiqueta de Google Analytics.
+
+Abajo está la etiqueta de Google de esta cuenta. Cópiela y péguela en el código de cada página de su sitio web, justo después del elemento <head>. No añada más de una etiqueta de Google a cada página. Se pega en el index.html de la carpeta build
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3QF2RFJ4LN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3QF2RFJ4LN');
+</script>
