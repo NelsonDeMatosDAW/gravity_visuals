@@ -13,6 +13,11 @@ Faq3.propTypes = {
 function Faq3(props) {
     const {data} =props;
 
+    //Estado para la pestaña activa
+    const [activeTabIndex, setActiveTabIndex] = useState(0);
+
+
+    //Info del bloque de text
     const [dataBlock] = useState(
         {
             subheading: 'Dudas Frecuentes',
@@ -24,23 +29,37 @@ function Faq3(props) {
 
     const [dataTab] = useState([
         {
-            id: 1,
+            id: 0,
             title: 'Videos',
         },
         {
-            id: 2,
+            id: 1,
             title: 'Fotos',
         },
         {
-            id: 3,
+            id: 2,
             title: 'Diseño Gráfico',
         },
         {
-            id: 4,
+            id: 3,
             title: 'Modelado 3D',
+        },
+        {
+            id: 4,
+            title: 'Generales',
         },
 
     ]);
+
+    //Filtrar los arrays según la categoría
+    const questionsByTab = {
+        0: data.filter(item => item.category == 'video'),
+        1: data.filter(item => item.category == 'foto'),
+        2: data.filter(item => item.category == 'diseño'),
+        3: data.filter(item => item.category == 'modelo'),
+        4: data.filter(item => item.category == 'general'),
+    }
+
     return (
         <section className="faq s3">
             <div className="container">
@@ -54,7 +73,7 @@ function Faq3(props) {
                         </div>
                         <div className="faq__main flat-tabs">
 
-                            <Tabs>
+                            <Tabs selectedIndex={activeTabIndex} onSelect={index => setActiveTabIndex(index)}>
                                 <TabList className='menu-tab'>
                                     {
                                         dataTab.map(idx => (
@@ -65,19 +84,15 @@ function Faq3(props) {
                                 </TabList>
 
                                     {
-                                            dataTab.map(idx => (
-                                                <TabPanel key={idx.id} className='content-tab'>
+                                            dataTab.map((tab, idx) => (
+                                                <TabPanel key={tab.id} className='content-tab'>
                                                     <div className="content-inner">
                                                         <div className="flat-accordion">
-                                                        {
-                                                                    data.slice(0,4).map(idx => (
-                                                                        <Accordion show={idx.show} key={idx.id} title={idx.title} className='flat-toggle h6'>
-                                                                            <p className="toggle-content">{idx.text} </p>
-                                                                        </Accordion>
-                                                                    ))
-                                                                }
-
-                            
+                                                            {(questionsByTab[idx] || data.slice(0, 4)).map(item => (
+                                                            <Accordion show={item.show} key={item.id} title={item.title} className="flat-toggle h6">
+                                                                <p className="toggle-content">{item.text}</p>
+                                                            </Accordion>
+                                                            ))}
                                                         </div>
                                                     </div>
                                                 </TabPanel>

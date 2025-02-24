@@ -1,7 +1,7 @@
 
 
 import img1 from '../images/layouts/videoclips_leon.jpg'
-import img2 from '../images/layouts/nucifera_1.jpg'
+import img2 from '../images/layouts/nucifera_2.jpg'
 import img3 from '../images/layouts/ines_1.jpg'
 import img4 from '../images/layouts/cj_3.jpg'
 import img5 from '../images/layouts/boda_1.jpg'
@@ -23,7 +23,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/Ibiza_cambios.mp4'
+        videoSrc: '/assets/videos_optimizados/videoclips_leon.mp4'
     },
     {
         id: 2,
@@ -33,7 +33,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/estudio_fotografia_ponferrada.MOV'
+        videoSrc: '/assets/videos_optimizados/estudio_fotografia_ponferrada.mp4'
     },
     {
         id: 3,
@@ -43,7 +43,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/Ines.mov'
+        videoSrc: '/assets/videos_optimizados/videos_fitness_salamanca.mp4'
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/videos_motor_ponferrada.mp4'
+        videoSrc: '/assets/videos_optimizados/videos_coches_leon.mp4'
     },
     {
         id: 5,
@@ -63,7 +63,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/videos_boda_ponferrada.mp4'
+        videoSrc: '/assets/videos_optimizados/videos_boda_ponferrada.mp4'
     },
     {
         id: 6,
@@ -73,7 +73,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/fotografia_modelos_león.mp4'
+        videoSrc: '/assets/videos_optimizados/fotografia_modelos_leon.mp4'
     },
     {
         id: 7,
@@ -83,7 +83,7 @@ const dataCard = [
         avt: avt,
         name: 'Gravity Visuals',
         tag: '@nmgravity_visuals',
-        videoSrc: '/assets/videos/videos_clubs_y_discotecas_leon.mp4'
+        videoSrc: '/assets/videos_optimizados/videos_clubs_y_discotecas_leon.mp4'
     },
 
 
