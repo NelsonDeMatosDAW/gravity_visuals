@@ -451,22 +451,22 @@ body[data-magic-cursor="hide"] .mouse-cursor{display: none; opacity: 0; visibili
 @keyframes animate-1 {
     0%,
     100% {
-      transform: translateY(0vh) translateX(0vmin);
+        transform: translateY(0vh) translateX(0vmin);
     }
     50% {
-      transform: translateY(-1.5vh) translateX(5vmin);
+        transform: translateY(-1.5vh) translateX(5vmin);
     }
-  }
+}
 
-  @keyframes animate-2 {
-    0%,
-    100% {
-      transform: translateY(0px);
+    @keyframes animate-2 {
+        0%,
+        100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-15vmin);
+        }
     }
-    50% {
-      transform: translateY(-15vmin);
-    }
-  }
 @keyframes animate-3 {
     0%,
     100% {
@@ -696,4 +696,10 @@ a {
 }
 .home-1 {
     overflow: hidden;
+}
+
+@keyframes animate-opacity-1 {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
 }

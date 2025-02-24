@@ -1,6 +1,8 @@
 import React , { useState , useEffect } from 'react';
 
 import { Link , NavLink } from 'react-router-dom';
+import { FaWhatsapp } from "react-icons/fa";
+
 import menus from '../../pages/menu';
 
 //import logo from '../../assets/images/logo/logo.png'
@@ -31,6 +33,10 @@ const Header = () => {
     const handleDropdown = index => {
         setActiveIndex(index); 
     };
+
+    const whatsappMessage = "Hola, estoy contactando a través de la Web de la productora audiovisual. Estoy interesado en tus servicios audiovisuales.";
+    const phoneNumber = "638851459";
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
     return (
 
@@ -74,7 +80,10 @@ const Header = () => {
                             </div>
 
                             <div className="header__action">
-                                <Link to="/contact" className="action-btn"><span>Join Now</span></Link>
+                                <a href={whatsappUrl} className="action-btn" target="_blank" rel="noopener noreferrer">
+                                    
+                                    <span><FaWhatsapp size={24} /></span>
+                                </a>
                             </div>
                         </div>
                     </div>

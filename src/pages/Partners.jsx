@@ -58,7 +58,7 @@ function Partners(props) {
                                         </SwiperSlide>
                                     ))
                                 }
-                               
+                            
                             </Swiper>
                             <Swiper
                                 className="brands-swiper"
@@ -85,7 +85,7 @@ function Partners(props) {
                                         </SwiperSlide>
                                     ))
                                 }
-                               
+                            
                             </Swiper>
                             <Swiper
                                 className="brands-swiper"
@@ -112,7 +112,7 @@ function Partners(props) {
                                         </SwiperSlide>
                                     ))
                                 }
-                               
+                            
                             </Swiper>
                             <Swiper
                                 className="brands-swiper"
@@ -139,7 +139,7 @@ function Partners(props) {
                                         </SwiperSlide>
                                     ))
                                 }
-                               
+                            
                             </Swiper>
 
                 </div>

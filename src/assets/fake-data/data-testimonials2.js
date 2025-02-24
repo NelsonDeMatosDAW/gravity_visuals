@@ -26,7 +26,7 @@ const dataTestimonials2 = [
     {
         id: 3,
         icon: icon1,
-        text: '“  “'.replace(/\n/g, '<br />'),
+        text: '“Ha sido un placer trabajar con Gravity Visuals. Su profesionalismo y creatividad han sido esenciales para capturar la esencia de Valhalla Club Bembibre. \n El trato siempre ha sido cercano y atento, y el resultado final ha superado nuestras expectativas. \n¡Recomendado al 100%!“'.replace(/\n/g, '<br />'),
         avt: avt3,
         name: 'Christian Alonso',
         position: 'Founder'

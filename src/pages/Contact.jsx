@@ -6,34 +6,34 @@ import dataFaqs from '../assets/fake-data/data-faq';
 import Footer from '../components/footer/Footer';
 
 
-import img from '../assets/images/layouts/touch.png'
+import img from '../assets/images/logo/GV_sin_fondo.png'
 
 function Contact(props) {
     return (
         <div className='wrapper'>
 
-            <PageTitle title='Contact' />
+            <PageTitle title='Contacto' />
 
             <section className="touch">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
                             <div className="block-text center">
-                                <h6 className="sub-heading"><span>Get in Touch!</span></h6>
-                                <h3 className="heading">Let’s Start Working <br />
-                                    Together
+                                <h6 className="sub-heading"><span>Cuentanos tus proyectos!</span></h6>
+                                <h3 className="heading">Comencemos a trabajar<br />
+                                    juntos
                                     </h3>
                             </div>
                             <div className="touch__main">
-                                <div className="info">
-                                    <h5>Contact information</h5>
+                                <div className="info" >
+                                    <h5></h5>
                                     <ul className="list">
                                         <li>
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10 7C10 7.53043 9.78929 8.03914 9.41421 8.41421C9.03914 8.78929 8.53043 9 8 9C7.46957 9 6.96086 8.78929 6.58579 8.41421C6.21071 8.03914 6 7.53043 6 7C6 6.46957 6.21071 5.96086 6.58579 5.58579C6.96086 5.21071 7.46957 5 8 5C8.53043 5 9.03914 5.21071 9.41421 5.58579C9.78929 5.96086 10 6.46957 10 7V7Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                                                 <path d="M13 7C13 11.7613 8 14.5 8 14.5C8 14.5 3 11.7613 3 7C3 5.67392 3.52678 4.40215 4.46447 3.46447C5.40215 2.52678 6.67392 2 8 2C9.32608 2 10.5979 2.52678 11.5355 3.46447C12.4732 4.40215 13 5.67392 13 7V7Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                                             </svg>
-                                            <p>20, Backway Road, New York, US AB42</p>                                        
+                                            <p>C/Ronda Norte 26, Ponferrada (León), 24404</p>                                        
                                         </li>
                                         <li>
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,57 +46,63 @@ function Contact(props) {
                                                 </clipPath>
                                                 </defs>
                                             </svg>
-                                            <p>+000-000-000-000</p>
+                                            <p>+34 638 85 14 59</p>
                                                 
                                         </li>
                                         <li>
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.5 4.5V11.5C14.5 11.8978 14.342 12.2794 14.0607 12.5607C13.7794 12.842 13.3978 13 13 13H3C2.60218 13 2.22064 12.842 1.93934 12.5607C1.65804 12.2794 1.5 11.8978 1.5 11.5V4.5M14.5 4.5C14.5 4.10218 14.342 3.72064 14.0607 3.43934C13.7794 3.15804 13.3978 3 13 3H3C2.60218 3 2.22064 3.15804 1.93934 3.43934C1.65804 3.72064 1.5 4.10218 1.5 4.5M14.5 4.5V4.662C14.5 4.9181 14.4345 5.16994 14.3096 5.39353C14.1848 5.61712 14.0047 5.80502 13.7867 5.93933L8.78667 9.016C8.55014 9.16169 8.2778 9.23883 8 9.23883C7.7222 9.23883 7.44986 9.16169 7.21333 9.016L2.21333 5.94C1.99528 5.80569 1.81525 5.61779 1.69038 5.3942C1.56551 5.1706 1.49997 4.91876 1.5 4.66267V4.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                                                 </svg>
-                                            <p>support@gmail.com</p>                                        
+                                            <p>administrador@gravityvisuals.es</p>                                        
                                         </li>
                                     </ul>
 
-                                    <div className="image">
-                                        <img src={img} alt="cyfonii" />
+                                    <div className="image"
+                                    >
+                                        <img 
+                                            src={img}
+                                            alt="Contacta con una productora audiovisual en León, Ponferrada, Coruña, Vigo" 
+                                            style={{width: '100%', height: 'auto', maxWidth: '300px'}}
+                                        />
                                     </div>
                                 </div>
 
                                 <form action="#" className="form-box">
                                     <div className="row">
                                         <div className="col">
-                                            <label >Your name</label>
+                                            <label >Tu nombre</label>
                                         <input type="text" className="form-control" />
                                         </div>
                                         <div className="col">
-                                            <label >Your email</label>
+                                            <label >Tu email</label>
                                         <input type="email" className="form-control" />
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col">
-                                            <label >Your phone</label>
+                                            <label >Tu teléfono</label>
                                             <input type="text" className="form-control" />
                                         </div>
                                         <div className="col">
-                                            <label >Subject</label>
+                                            <label >Servicio</label>
                                             <select className="form-control">
-                                                <option>Select</option>
-                                                <option>Select</option>
-                                                <option>Select</option>
+                                                <option>Video</option>
+                                                <option>Foto</option>
+                                                <option>Diseño gráfico</option>
+                                                <option>Modelado 3D</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col">
-                                            <label >Message</label>
+                                            <label >Tu mensaje</label>
                                             <textarea name="mess" id="mess" cols="30" rows="10"></textarea>
                                         </div>
             
                                     </div>
                                     <div className="row mb-0">
                                         <div className="col">
-                                            <button className="action-btn"><span>Send Now</span></button>
+                                            <button className="action-btn"><span>Enviar</span></button>
                                         </div>
                                     </div>
                                 </form>
@@ -110,11 +116,20 @@ function Contact(props) {
                 <div className="container">
                     <div className="row">
                         <div className="map__main">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86077.66255184308!2d-122.40402224079803!3d47.60810999586645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab3f905c4b1%3A0x96bf575ff75ab1aa!2s411%20University%20St%2C%20Seattle%2C%20WA%2098101%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1584084043716!5m2!1svi!2s" title='map' height="600" allowFullScreen="" aria-hidden="false" tabIndex="0" />
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.978077801173!2d-6.58970234951783!3d42.54045307918661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd355e4f53c83bf1%3A0xe62c669ac0de84c!2sRonda%20del%20Norte%2026%2C%2024404%20Ponferrada%2C%20Le%C3%B3n%2C%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1677007067070!5m2!1ses!2ses" 
+                                title="map" 
+                                height="600" 
+                                allowFullScreen="" 
+                                aria-hidden="false" 
+                                tabIndex="0" 
+                            />
                         </div>
                     </div>
                 </div>
             </div>
+
+
 
             <Faq3 data={dataFaqs} />
 

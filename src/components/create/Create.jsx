@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import Button from '../button/Button';
 
-import img from '../../assets/images/layouts/create.png'
+import img from '../../assets/images/layouts/logo_400.png'
 
 
 
@@ -10,8 +10,8 @@ function Create(props) {
     
     const [dataBlock] = useState(
         {
-            heading: 'Create your NFT portfolio',
-            desc: 'Get udpated with news, tips & tricks',
+            heading: 'Contacta con nosotros',
+            desc: 'Agenda una cita y cuentanos tu proyecto audiovisual.',
             
         }
     )
@@ -24,10 +24,10 @@ function Create(props) {
                                 <div className="content">
                                     <h4 className="heading">{dataBlock.heading}</h4>
                                     <p>{dataBlock.desc}</p>
-                                    <Button title='Join Now' link='/contact' />
+                                    <Button title='Contacta' link='/contacto' />
                                 
                                 </div>
-                                <img src={img} alt="Cyfonii" />
+                                <img src={img} alt="Videos León" />
                             </div>
                         </div>
                     </div>

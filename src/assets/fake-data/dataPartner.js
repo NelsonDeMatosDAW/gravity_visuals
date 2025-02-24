@@ -1,10 +1,10 @@
 
-import img1 from '../images/logo/brand-01.png'
-import img2 from '../images/logo/brand-02.png'
-import img3 from '../images/logo/brand-03.png'
-import img4 from '../images/logo/brand-04.png'
-import img5 from '../images/logo/brand-05.png'
-import img6 from '../images/logo/brand-06.png'
+import img1 from '../images/partner/rks.png'
+import img2 from '../images/partner/wide.png'
+import img3 from '../images/partner/shimano.png'
+import img4 from '../images/partner/EG.png'
+import img5 from '../images/partner/Mazu.png'
+import img6 from '../images/partner/skyjet.png'
 
 
 const dataPartner = [

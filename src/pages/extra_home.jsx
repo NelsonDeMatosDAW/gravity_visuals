@@ -15,7 +15,7 @@ import Portfolio from '../components/portfolio/Portfolio';
 import Project from '../components/project/Project';
 
 import Speciality from '../components/speciality/Speciality';
-import Team from '../components/team/Team';
+import Team1 from '../components/team/Team1';
 import Testimonials from '../components/testimonials/Testimonials';
 
 
@@ -36,7 +36,7 @@ function Home01(props) {
             <Project data={dataProject} />
         
 
-            <Team data={dataTeam} />
+            <Team1 data={dataTeam} />
 
             <Testimonials data={dataTestimonials} />
 

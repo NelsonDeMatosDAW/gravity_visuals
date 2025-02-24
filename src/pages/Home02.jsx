@@ -1,24 +1,24 @@
 import React from 'react';
-import dataBlog from '../assets/fake-data/data-blog';
+
 import dataCard from '../assets/fake-data/data-card';
-import dataFaqs from '../assets/fake-data/data-faq';
+
 import dataItem from '../assets/fake-data/data-item';
-import dataRoadMap from '../assets/fake-data/data-roadmap';
+
 import dataTestimonials2 from '../assets/fake-data/data-testimonials2';
-import dataTeam from '../assets/fake-data/dataTeam';
-import About2 from '../components/about/About2';
+import dataPhoto from '../assets/fake-data/dataPhoto';
+
 import About from '../components/about/About';
 
 import Banner2 from '../components/banner/Banner2';
-import Blog from '../components/blog/Blog';
+
 import Counter from '../components/counter/Counter';
-import Faqs from '../components/faqs/Faqs';
+
 import Footer from '../components/footer/Footer';
 
 import Project from '../components/project/Project';
 
-import Team2 from '../components/team/Team2';
 import Testimonials2 from '../components/testimonials/Testimonials2';
+import Photo from '../components/photo/Photo';
 
 
 
@@ -37,7 +37,7 @@ function Home02(props) {
 
                 <Project data={dataItem} /> 
 
-                <Team2 data={dataTeam} />
+                <Photo data={dataPhoto} />
 
                 <Testimonials2 data={dataTestimonials2} />
 

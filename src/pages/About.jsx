@@ -4,7 +4,7 @@ import PageTitle from '../components/pagetitle/PageTitle';
 import About2 from '../components/about/About2';
 import Counter from '../components/counter/Counter';
 import Portfolio from '../components/portfolio/Portfolio';
-import Team from '../components/team/Team';
+import Team1 from '../components/team/Team1';
 import dataTeam from '../assets/fake-data/dataTeam';
 import Footer from '../components/footer/Footer';
 import dataPortfolio from '../assets/fake-data/data-portfolio';
@@ -27,7 +27,7 @@ function About(props) {
 
             <Portfolio data={dataPortfolio} />
 
-            <Team data={dataTeam} />
+            <Team1 data={dataTeam} />
 
             <section className="create">
                 <div className="container">

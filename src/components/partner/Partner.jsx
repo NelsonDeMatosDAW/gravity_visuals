@@ -12,7 +12,7 @@ import data from '../../assets/fake-data/dataPartner'
 function Partner(props) {
     return (
         <div className="brands block-text center" data-aos="fade-up" data-aos-duration="2000">
-                            <h6 className="sub-heading"><span>We Are Partnered with Top Brands</span></h6>
+                            <h6 className="sub-heading"><span>Marcas con las que trabajamos</span></h6>
 
                             <Swiper
                                 className="brands-swiper"
@@ -38,14 +38,25 @@ function Partner(props) {
                                 {
                                     data.map(idx => (
                                         <SwiperSlide key={idx.id} >
-                                            <Link to="#"><img src={idx.img} alt="Cyfonii" /></Link>
+                                            <Link to="#">
+                                                <img
+                                                    src={idx.img} 
+                                                    alt="Productora audiovisual en Ponferrada" 
+                                                    style={{ 
+                                                        maxWidth: '100%', // Ajusta el ancho máximo
+                                                        height: 'auto',    // Ajusta la altura automáticamente
+                                                        display: 'block',  // Evita espacios en blanco alrededor de la imagen
+                                                        margin: '0 auto'   // Centra la imagen horizontalmente
+                                                    }}  
+                                                />
+                                            </Link>
                                         </SwiperSlide>
                                     ))
                                 }
 
                             </Swiper>
 
-                        </div>
+        </div>
     );
 }
 
