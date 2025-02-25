@@ -4,7 +4,7 @@ import dataFaqs from '../assets/fake-data/data-faq';
 import dataPortfolio from '../assets/fake-data/data-portfolio';
 import dataRoadMap from '../assets/fake-data/data-roadmap';
 import dataTestimonials from '../assets/fake-data/data-testimonials';
-import dataProject from '../assets/fake-data/dataProject';
+import dataProject_videos from '../assets/fake-data/dataProject_videos';
 import dataTeam from '../assets/fake-data/dataTeam';
 import About from '../components/about/About';
 import Banner from '../components/banner/Banner';
@@ -33,7 +33,7 @@ function Home01(props) {
 
             <Portfolio data={dataPortfolio} />
 
-            <Project data={dataProject} />
+            <Project data={dataProject_videos} />
         
 
             <Team1 data={dataTeam} />

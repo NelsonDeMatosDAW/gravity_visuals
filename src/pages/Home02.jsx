@@ -16,6 +16,8 @@ import Counter from '../components/counter/Counter';
 import Footer from '../components/footer/Footer';
 
 import Project from '../components/project/Project';
+import Project2 from '../components/project/Project2';
+import Project3 from '../components/project/Project3';
 
 import Testimonials2 from '../components/testimonials/Testimonials2';
 import Photo from '../components/photo/Photo';

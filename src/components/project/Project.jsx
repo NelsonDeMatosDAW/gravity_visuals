@@ -54,7 +54,7 @@ function Project(props) {
                                 pagination={{
                                     clickable: true,
                                 }}
-                                observer={true}       // 🔹 Observa cambios en el tamaño del Swiper
+                                observer={false}       // 🔹 Observa cambios en el tamaño del Swiper
                                 observeParents={true} // 🔹 También observa cambios en los elementos padres
                             >
 

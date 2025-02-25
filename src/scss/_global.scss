@@ -698,6 +698,21 @@ a {
     overflow: hidden;
 }
 
+.wrapper-nft {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #070A29;
+    z-index: 1
+}
+
+.card-title-nft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @keyframes animate-opacity-1 {
     0% { opacity: 0.2; }
     50% { opacity: 1; }

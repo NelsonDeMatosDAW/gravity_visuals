@@ -33,7 +33,7 @@ const routes = [
   { path: '/partners', component: <Partners />},
   { path: '/about', component: <About />},
 */
-  { path: '/nfts', component: <Nfts />},
+  { path: '/proyectos', component: <Nfts />},
   { path: '/equipo', component: <Team />},
   { path: '/contacto', component: <Contact />},
 

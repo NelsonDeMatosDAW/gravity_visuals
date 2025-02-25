@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Project from '../components/project/Project';
-import dataProject from '../assets/fake-data/dataProject';
 
 import dataTeam from '../assets/fake-data/dataTeam';
 import Testimonials from '../components/testimonials/Testimonials';
@@ -19,6 +18,7 @@ import Counter from '../components/counter/Counter';
 import Blog from '../components/blog/Blog';
 import dataBlog from '../assets/fake-data/data-blog';
 import Footer from '../components/footer/Footer';
+import dataProject_videos from '../assets/fake-data/dataProject_videos';
 
 
 function Home03(props) {
@@ -31,7 +31,7 @@ function Home03(props) {
 
         <Token />
 
-        <Project data={dataProject} />
+        <Project data={dataProject_videos} />
 
 
         <Team2 data={dataTeam} />

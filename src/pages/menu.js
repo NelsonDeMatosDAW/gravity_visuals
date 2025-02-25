@@ -26,8 +26,8 @@ const menus = [
     },
     {
         id: 2,
-        name: 'Portafolio',
-        links: '/',
+        name: 'Proyectos',
+        links: '/proyectos',
         
     },
     {
