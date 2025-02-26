@@ -58,12 +58,12 @@ function Team1(props) {
                                     <div className="swiper-slide">
                                         <div className="team-box">
                                             <div className="image">
-                                            <Link to="/team">
+                                            <Link to="#">
                                                 <img src={idx.img} alt={idx.name} />
                                             </Link>
                                             </div>
                                             <div className="content">
-                                                <Link to="/team" className="h5 name">{idx.name}</Link>
+                                                <Link to="#" className="h5 name">{idx.name}</Link>
                                                 <p className="position">{idx.position}</p>
 
                                                 <ul className="list-social">

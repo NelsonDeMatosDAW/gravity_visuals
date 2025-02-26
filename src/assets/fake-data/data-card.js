@@ -22,7 +22,7 @@ const dataCard = [
         price : 'Premiere y After Effects',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/videoclips_leon.mp4'
     },
     {
@@ -32,7 +32,7 @@ const dataCard = [
         price : 'Lightroom',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/estudio_fotografia_ponferrada.mp4'
     },
     {
@@ -42,7 +42,7 @@ const dataCard = [
         price : 'DaVinci',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/videos_fitness_salamanca.mp4'
     },
     {
@@ -52,7 +52,7 @@ const dataCard = [
         price : 'Photoshop',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/videos_coches_leon.mp4'
     },
     {
@@ -62,7 +62,7 @@ const dataCard = [
         price : 'Premiere Pro',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/videos_boda_ponferrada.mp4'
     },
     {
@@ -72,7 +72,7 @@ const dataCard = [
         price : 'Premiere Pro y Lightroom',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/fotografia_modelos_leon.mp4'
     },
     {
@@ -82,7 +82,7 @@ const dataCard = [
         price : 'Premiere Pro',
         avt: avt,
         name: 'Gravity Visuals',
-        tag: '@nmgravity_visuals',
+        tag: '@gravity_visualss',
         videoSrc: '/assets/videos_optimizados/videos_clubs_y_discotecas_leon.mp4'
     },
 

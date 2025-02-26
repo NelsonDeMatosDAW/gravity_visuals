@@ -30,7 +30,7 @@ function Material(props) {
                             </div>
 
                             {
-                                data.slice(4,11).map(idx => (
+                                data.slice(0).map(idx => (
                                     <div key={idx.id} className="col-xl-3 col-md-6">
                                         <div className="photo-box">
                                             <div className="image">

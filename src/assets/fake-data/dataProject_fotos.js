@@ -19,7 +19,7 @@ import avt from '../images/layouts/avt-05.png'
 const dataProject_fotos = [
 
     {
-        id: 11,
+        id: 50,
         img: img11,
         title: 'Shooting Halloween Studio Nucifera',
         avt: avt,
@@ -28,7 +28,7 @@ const dataProject_fotos = [
         price: '200€',
     },
     {
-        id: 12,
+        id: 51,
         img: img12,
         title: 'Shooting Dj Eric Session 1',
         avt: avt,
@@ -37,16 +37,16 @@ const dataProject_fotos = [
         price: '200€',
     },
     {
-        id: 13,
-        img: img13,
-        title: 'Shooting Fitness Ines Session 1',
+        id: 52,
+        img: img20,
+        title: 'Shooting Fitness Ines Session 2',
         avt: avt,
         creator: 'Gravity Visuals',
         likes: 3432,
         price: '150€',
     },
     {
-        id: 14,
+        id: 53,
         img: img14,
         title: 'Shooting San Valentin Studio Nucifera',
         avt: avt,
@@ -55,7 +55,7 @@ const dataProject_fotos = [
         price: '200€',
     },
     {
-        id: 15,
+        id: 54,
         img: img15,
         title: 'Shooting DJ Studio Chon',
         avt: avt,
@@ -64,7 +64,7 @@ const dataProject_fotos = [
         price: '150€',
     },
     {
-        id: 16,
+        id: 55,
         img: img16,
         title: 'Shooting Dj Eric Session 2',
         avt: avt,
@@ -73,7 +73,7 @@ const dataProject_fotos = [
         price: '200€',
     },
     {
-        id: 17,
+        id: 56,
         img: img17,
         title: 'Shooting Dei modelaje',
         avt: avt,
@@ -82,7 +82,7 @@ const dataProject_fotos = [
         price: '150€',
     },
     {
-        id: 18,
+        id: 67,
         img: img18,
         title: 'Shooting DJ Trinky',
         avt: avt,
@@ -91,7 +91,7 @@ const dataProject_fotos = [
         price: '150€',
     },
     {
-        id: 19,
+        id: 58,
         img: img19,
         title: 'Shooting Dj Eric en Directo',
         avt: avt,
@@ -100,9 +100,9 @@ const dataProject_fotos = [
         price: '150€',
     },
     {
-        id: 20,
-        img: img20,
-        title: 'Shooting Fitness Ines Session 2',
+        id: 59,
+        img: img13,
+        title: 'Shooting Fitness Ines Session 1',
         avt: avt,
         creator: 'Gravity Visuals',
         likes: 3432,

@@ -13,7 +13,7 @@ const dataTestimonials2 = [
         text: '“ ¡Excelente cooperación y calidad de primera clase!\n  Agradecemos que con su trabajo destaque nuestro profesionalismo, creatividad y capacidad de respuesta.\nLos vídeos terminados no sólo cumplieron con nuestras expectativas, sino que las superaron.\n ¡Recomendación clara para cualquiera que busque contenido de video de alta calidad!“'.replace(/\n/g, '<br />'),
         avt: avt1,
         name: 'Nils Lüdtke',
-        position: 'Founder & CEO'
+        position: 'Founder & CEO alwamarketing'
     },
     {
         id: 2,
@@ -26,10 +26,10 @@ const dataTestimonials2 = [
     {
         id: 3,
         icon: icon1,
-        text: '“Ha sido un placer trabajar con Gravity Visuals. Su profesionalismo y creatividad han sido esenciales para capturar la esencia de Valhalla Club Bembibre. \n El trato siempre ha sido cercano y atento, y el resultado final ha superado nuestras expectativas. \n¡Recomendado al 100%!“'.replace(/\n/g, '<br />'),
+        text: '“Siempre es un placer trabajar con Gravity Visuals. Su profesionalidad y creatividad han sido esenciales para capturar la esencia de Valhalla Club Bembibre. \n El trato siempre es cercano y atento, y el resultado final ha superado nuestras expectativas. \n¡Recomendado al 100%!“'.replace(/\n/g, '<br />'),
         avt: avt3,
         name: 'Christian Alonso',
-        position: 'Founder'
+        position: 'Founder Valhalla Club Bembibre'
     },
 
 ]
